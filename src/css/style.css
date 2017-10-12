@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700|PT+Sans+Narrow:400,700");
+.sidemenu {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #424862; }
+  .sidemenu li {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out; }
+    .sidemenu li.active {
+      border-left: 3px solid #f4f6f9;
+      background: #2E2D36;
+      color: #08A8D7; }
+    .sidemenu li:hover {
+      border-left: 3px solid #f4f6f9;
+      background: #2E2D36;
+      color: #08A8D7; }
+    .sidemenu li .fa {
+      font-size: 25px;
+      padding: 10px 10px; }
+
+.box-blue {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background: #08A8D7; }
+  .box-blue h4 {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    margin-top: 25px; }
+  .box-blue .fa {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400; }
+
+.front-menu {
+  width: 100vw;
+  padding-left: 300px;
+  padding: 20px;
+  background: white; }
+  .front-menu .user-field {
+    padding-left: 300px;
+    display: inline-block; }
+    .front-menu .user-field a {
+      display: inline-block; }
+  .front-menu .search-area {
+    float: right;
+    display: inline-block; }
+    .front-menu .search-area .fa:hover {
+      color: #08A8D7; }
+    .front-menu .search-area .input {
+      color: #f4f6f9;
+      background: transparent;
+      width: 300px;
+      border: none;
+      font-weight: 500;
+      transition: all .5s ease-in-out;
+      padding: 5px; }
+      .front-menu .search-area .input:hover {
+        background: #08A8D7; }
+
+.user-field .fa {
+  font-size: 20px;
+  color: #9EA6AB; }
+
+.user-field span {
+  color: #9EA6AB;
+  position: relative;
+  top: -12px;
+  right: 3px; }
+
+.user-field .circle1 {
+  background: red;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 10px;
+  color: white;
+  text-align: center; }
+
+.user-field .circle2 {
+  background: green;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 10px;
+  color: white;
+  text-align: center; }
+
+.user-field .circle3 {
+  background: orange;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 10px;
+  color: white;
+  text-align: center; }
+
+.user-field .circle4 {
+  background: purple;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 10px;
+  color: white;
+  text-align: center; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #f4f6f9;
+  overflow-x: hidden; }
+  body a:hover {
+    outline: 0;
+    text-decoration: none; }

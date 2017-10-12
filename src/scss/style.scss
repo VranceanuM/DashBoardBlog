@@ -1,0 +1,15 @@
+// Main Sass File
+@import 'variables';
+@import 'sidemenu';
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700|PT+Sans+Narrow:400,700');
+*{
+  box-sizing: border-box;
+}
+body{
+  background:$lightGrey;
+  overflow-x: hidden;
+  a:hover{
+    outline: 0;
+    text-decoration: none;
+  }
+}
