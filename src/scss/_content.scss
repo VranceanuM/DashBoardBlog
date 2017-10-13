@@ -1,0 +1,24 @@
+//Content Area
+.social-media {
+    padding-left: 350px;
+    .facebook {
+        background: white ;
+        font-size: 50px;
+
+    }
+ .friends {
+        position: relative;
+    top: 30px;
+    right: 35px;
+    font-size: 22px;
+    }
+}
+    .number {
+        background: blue;
+        width: 80px;
+        .first{
+            position: relative;
+            right: -18px;
+            font-size: 20px;
+        }
+    }

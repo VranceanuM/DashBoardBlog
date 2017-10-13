@@ -115,6 +115,25 @@
   color: white;
   text-align: center; }
 
+.social-media {
+  padding-left: 350px; }
+  .social-media .facebook {
+    background: white;
+    font-size: 50px; }
+  .social-media .friends {
+    position: relative;
+    top: 30px;
+    right: 35px;
+    font-size: 22px; }
+
+.number {
+  background: blue;
+  width: 80px; }
+  .number .first {
+    position: relative;
+    right: -18px;
+    font-size: 20px; }
+
 * {
   box-sizing: border-box; }
 
