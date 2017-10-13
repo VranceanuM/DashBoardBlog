@@ -118,8 +118,19 @@
 .social-media {
   padding-left: 350px; }
   .social-media .facebook {
-    background: white;
+    background: blue;
     font-size: 50px; }
+  .social-media .twitter {
+    background: rgba(0, 132, 255, 0.808);
+    font-size: 50px; }
+  .social-media .dribbble {
+    background: rgba(255, 123, 0, 0.89);
+    font-size: 50px; }
+  .social-media .instagram {
+    background: rgba(255, 0, 149, 0.993);
+    font-size: 50px; }
+  .social-media .fa {
+    color: white; }
   .social-media .friends {
     position: relative;
     top: 30px;
@@ -127,12 +138,25 @@
     font-size: 22px; }
 
 .number {
-  background: blue;
+  background: white;
   width: 80px; }
   .number .first {
     position: relative;
     right: -18px;
-    font-size: 20px; }
+    font-size: 20px;
+    font-weight: 400;
+    color: darkgrey; }
+  .number .lead {
+    font-weight: 400;
+    color: darkgrey; }
+
+.card-news {
+  margin-left: 80px; }
+
+#cards {
+  padding-left: 240px; }
+  #cards .card {
+    margin-left: 70px; }
 
 * {
   box-sizing: border-box; }
